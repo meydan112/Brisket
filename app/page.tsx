@@ -24,7 +24,7 @@ export default function Home() {
 
           <Link
             href="/menu"
-            className="mt-6 inline-block rounded-lg bg-green-900 px-8 py-3 font-semibold text-white transition hover:bg-green-800"
+            className="mt-6 inline-block rounded-lg bg-blue-900 px-8 py-3 font-semibold text-white transition hover:bg-blue-800"
           >
             View Menu
           </Link>

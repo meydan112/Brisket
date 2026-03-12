@@ -3,10 +3,10 @@ export const business = {
   tagline: "Fresh food, warm atmosphere, unforgettable moments.",
   description:
     "A modern restaurant website template for cafes, restaurants, and local food businesses.",
-  phone: "050-0000000",
-  whatsapp: "0500000000",
+  phone: "054-3293271",
+  whatsapp: "0543293271",
   email: "info@example.com",
-  address: "Bat Yam, Israel",
+  address: "Tel Aviv, Israel",
   hours: [
     "Sunday - Thursday: 08:00 - 22:00",
     "Friday: 08:00 - 15:00",

@@ -33,9 +33,9 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-green-200 bg-white/90 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-blue-200 bg-white/90 backdrop-blur">
       <div className="flex items-center justify-between px-10 py-4">
-        <Link href="/" className="text-2xl font-bold text-green-900">
+        <Link href="/" className="text-2xl font-bold text-blue-900">
           {business.name}
         </Link>
 
@@ -43,28 +43,28 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => setIsOpen(!isOpen)}
-            className="flex h-10 w-10 items-center justify-center rounded-md border border-green-200 text-green-900 transition hover:bg-green-50"
+            className="flex h-10 w-10 items-center justify-center rounded-md border border-blue-200 text-blue-900 transition hover:bg-blue-50"
             aria-label="Toggle menu"
           >
             {isOpen ? (
               <span className="text-2xl leading-none">×</span>
             ) : (
               <div className="flex flex-col gap-1">
-                <span className="block h-0.5 w-5 bg-green-900"></span>
-                <span className="block h-0.5 w-5 bg-green-900"></span>
-                <span className="block h-0.5 w-5 bg-green-900"></span>
+                <span className="block h-0.5 w-5 bg-blue-900"></span>
+                <span className="block h-0.5 w-5 bg-blue-900"></span>
+                <span className="block h-0.5 w-5 bg-blue-900"></span>
               </div>
             )}
           </button>
 
           <nav
-            className={`absolute right-0 mt-3 w-48 rounded-xl border border-green-200 bg-white p-4 shadow-lg transition-all duration-300 ease-out ${
+            className={`absolute right-0 mt-3 w-48 rounded-xl border border-blue-200 bg-white p-4 shadow-lg transition-all duration-300 ease-out ${
               isOpen
                 ? "visible translate-y-0 opacity-100"
                 : "invisible -translate-y-2 opacity-0"
             }`}
           >
-            <div className="flex flex-col gap-4 text-sm font-medium text-green-900">
+            <div className="flex flex-col gap-4 text-sm font-medium text-blue-900">
               {links.map((link) => {
                 const isActive = pathname === link.href;
 
@@ -73,14 +73,14 @@ export default function Navbar() {
                     key={link.href}
                     href={link.href}
                     onClick={() => setIsOpen(false)}
-                    className={`relative w-fit transition hover:text-green-700 ${
-                      isActive ? "font-semibold text-green-900" : ""
+                    className={`relative w-fit transition hover:text-blue-700 ${
+                      isActive ? "font-semibold text-blue-900" : ""
                     }`}
                   >
                     {link.label}
 
                     {isActive && (
-                      <span className="absolute -bottom-1 left-0 h-[2px] w-full bg-green-900"></span>
+                      <span className="absolute -bottom-1 left-0 h-[2px] w-full bg-blue-900"></span>
                     )}
                   </Link>
                 );

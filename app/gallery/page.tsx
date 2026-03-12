@@ -18,7 +18,9 @@ export default function GalleryPage() {
     event.stopPropagation();
     if (selectedIndex === null) return;
 
-    setSelectedIndex((selectedIndex - 1 + business.gallery.length) % business.gallery.length);
+    setSelectedIndex(
+      (selectedIndex - 1 + business.gallery.length) % business.gallery.length
+    );
   };
 
   const showNext = (event: React.MouseEvent) => {
@@ -31,7 +33,7 @@ export default function GalleryPage() {
   return (
     <main className="min-h-screen bg-gray-50 px-6 py-20">
       <div className="mx-auto max-w-6xl">
-        <h1 className="mb-12 text-center text-4xl font-bold text-green-900">
+        <h1 className="mb-12 text-center text-4xl font-bold text-blue-900">
           Gallery
         </h1>
 
@@ -59,7 +61,7 @@ export default function GalleryPage() {
         >
           <button
             onClick={showPrevious}
-            className="absolute left-6 rounded-full bg-white/90 px-4 py-2 text-2xl font-bold text-green-900 shadow hover:bg-white"
+            className="absolute left-6 rounded-full bg-white/90 px-4 py-2 text-2xl font-bold text-blue-900 shadow hover:bg-white"
             aria-label="Previous image"
           >
             ‹
@@ -74,7 +76,7 @@ export default function GalleryPage() {
 
           <button
             onClick={showNext}
-            className="absolute right-6 rounded-full bg-white/90 px-4 py-2 text-2xl font-bold text-green-900 shadow hover:bg-white"
+            className="absolute right-6 rounded-full bg-white/90 px-4 py-2 text-2xl font-bold text-blue-900 shadow hover:bg-white"
             aria-label="Next image"
           >
             ›
@@ -85,7 +87,7 @@ export default function GalleryPage() {
               event.stopPropagation();
               closeImage();
             }}
-            className="absolute top-6 right-6 rounded-full bg-white/90 px-4 py-2 text-xl font-bold text-green-900 shadow hover:bg-white"
+            className="absolute right-6 top-6 rounded-full bg-white/90 px-4 py-2 text-xl font-bold text-blue-900 shadow hover:bg-white"
             aria-label="Close image"
           >
             ×
