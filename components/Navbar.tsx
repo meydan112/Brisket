@@ -33,9 +33,9 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-blue-200 bg-white/90 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-brown-200 bg-white/90 backdrop-blur">
       <div className="flex items-center justify-between px-10 py-4">
-        <Link href="/" className="text-2xl font-bold text-blue-900">
+        <Link href="/" className="text-2xl font-bold text-brown-900">
           {business.name}
         </Link>
 

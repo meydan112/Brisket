@@ -2,7 +2,7 @@ import { business } from "../data/business";
 
 export default function Footer() {
   return (
-    <footer className="bg-green-900 px-6 py-10 text-white">
+    <footer className="bg-cyan-900 px-6 py-10 text-white">
       <div className="mx-auto max-w-6xl">
         <div className="grid gap-8 md:grid-cols-3">
           <div>

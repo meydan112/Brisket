@@ -1,128 +1,150 @@
 export const business = {
-  name: "Restaurant Template",
-  tagline: "Fresh food, warm atmosphere, unforgettable moments.",
+  name: "Cafe Nono",
+  tagline: "Specialty Coffee • בית קפה",
   description:
-    "A modern restaurant website template for cafes, restaurants, and local food businesses.",
-  phone: "054-3293271",
-  whatsapp: "0543293271",
-  email: "info@example.com",
-  address: "Tel Aviv, Israel",
+    "Specialty Coffee • בית קפה",
+  phone: "0523699098",
+  whatsapp: "0523699098",
+  email: "ronitta39@gmail.com",
+  address: "הטחנה 42, בנימינה גבעת עדה",
   hours: [
-    "Sunday - Thursday: 08:00 - 22:00",
-    "Friday: 08:00 - 15:00",
-    "Saturday: Closed",
+    "ראשון - חמישי: 7:00 - 19:00",
+    "שישי: 8:00 - 14:00",
+    "שבת: 8:00 - 15:00",
   ],
   about:
-    "We believe food is about people, family, and experience. This template helps restaurants present their menu, story, and atmosphere in a clean and modern way.",
+    ".מתמחים בקפה טוב ולב טוב❤️ מוזמנים להגיע אלינו",
   gallery: ["/1.jpg", "/2.jpg", "/3.jpg", "/4.jpg", "/5.jpg", "/6.jpg"],
 menu: [
   {
-    category: "Breakfast",
+    category: "Salads",
     items: [
       {
-        name: "Sunrise Breakfast",
-        price: "58 ₪",
-        description: "Two eggs, fresh bread, salad, cheeses, and orange juice.",
+        name: "סלט ישראלי",
+        price: "45 ₪",
+        description: "עגבניה, מלפפון, זיתי קלמטה, בולגרית",
       },
       {
-        name: "Avocado Toast",
+        name: "סלט קפרזה",
+        price: "45 ₪",
+        description: "עגבניות שרי, בייבי מוצרלה ועלי בזיליקום",
+      },
+      {
+        name: "סלט קיסר",
+        price: "45 ₪",
+        description: "",
+      },
+      {
+        name: "סלט קינואה",
+        price: "45 ₪",
+        description: "קינואה, בצל סגול, פטרוזיליה, חמוציות, אגוזי מלך ובטטות מלווה בטחינה",
+      },
+      {
+        name: "סלט קטן בהרכבה",
+        price: "45 ₪",
+        description: "",
+      },
+      {
+        name: "סלט גדול בהרכבה",
         price: "49 ₪",
-        description: "Toasted sourdough with avocado, herbs, and poached egg.",
-      },
-      {
-        name: "Pancake Stack",
-        price: "46 ₪",
-        description: "Fluffy pancakes served with maple syrup and fresh fruit.",
+        description: "",
       },
     ],
   },
   {
-    category: "Starters",
+    category: " nono הכריכים של ",
     items: [
       {
-        name: "Crispy Calamari",
-        price: "52 ₪",
-        description: "Lightly fried calamari with lemon aioli.",
+        name: "פרצל גאודה",
+        price: "29₪",
+        description: "גאודה, מלפפון, עגבניה",
       },
       {
-        name: "Bruschetta",
+        name: "פרצל סלט ביצים",
+        price: "29 ₪",
+        description: "סלט ביצים, חסה לאליק",
+      },
+      {
+        name: "פרצל טונה",
+        price: "29 ₪",
+        description: "סלט טונה, חסה לאליק",
+      },
+    ],
+  },
+  {
+    category: " nono המיוחדים של ",
+    items: [
+      {
+        name: "טוסט",
+        price: "40 ₪",
+        description: "בייגל אמריקאי עם גאודה, מלווה עם סלטון קטן",
+      },
+      {
+        name: "בורקס תורכי",
         price: "38 ₪",
-        description: "Toasted bread with tomato, basil, garlic, and olive oil.",
+        description: "ביצה קשה, חריף, מלפפון חמוץ, רסק עגבניות",
       },
       {
-        name: "Soup of the Day",
-        price: "34 ₪",
-        description: "Chef’s daily homemade soup with warm bread.",
-      },
-    ],
-  },
-  {
-    category: "Main Dishes",
-    items: [
-      {
-        name: "Grilled Salmon",
-        price: "92 ₪",
-        description: "Fresh salmon fillet with roasted vegetables and lemon butter.",
+        name: "צ'יה פודינג",
+        price: "29 ₪",
+        description: "זרעי צ'יה עם חלב שקדים, מלווים בפירות העונה",
       },
       {
-        name: "Ribeye Steak",
-        price: "128 ₪",
-        description: "Juicy ribeye steak with mashed potatoes and seasonal vegetables.",
-      },
-      {
-        name: "Truffle Pasta",
-        price: "74 ₪",
-        description: "Creamy pasta with mushrooms, parmesan, and truffle oil.",
-      },
-      {
-        name: "Classic Burger",
-        price: "68 ₪",
-        description: "Beef burger with cheddar, lettuce, tomato, and fries.",
+        name: "ספיישל טוסט",
+        price: "45 ₪",
+        description: "",
       },
     ],
   },
   {
-    category: "Desserts",
+    category: "מאפים ",
     items: [
       {
-        name: "Chocolate Lava Cake",
-        price: "36 ₪",
-        description: "Warm chocolate cake with a melted center and vanilla ice cream.",
+        name: "מיני קוראסון חמאה",
+        price: "9 ₪",
+        description: "",
       },
       {
-        name: "Cheesecake",
-        price: "34 ₪",
-        description: "Creamy baked cheesecake with berry sauce.",
+        name: "מיני קוראסון שוקולד",
+        price: "9 ₪",
+        description: "",
       },
       {
-        name: "Tiramisu",
-        price: "38 ₪",
-        description: "Classic Italian dessert with coffee and mascarpone cream.",
+        name: "קוראסון חמאה גדול",
+        price: "17 ₪",
+        description: "",
+      },
+      {
+        name: "פרצל שמינייה - מלוח",
+        price: "13 ₪",
+        description: "",
       },
     ],
   },
   {
-    category: "Drinks",
+    category: "שתייה",
     items: [
+      
+
       {
-        name: "Fresh Orange Juice",
-        price: "18 ₪",
-        description: "Freshly squeezed orange juice.",
+        name: "תפוזים סחוט - פחית",
+        price: "19 ₪",
+        description: "",
       },
       {
-        name: "Iced Coffee",
+        name: "אמריקנו קר - פחית",
         price: "16 ₪",
-        description: "Cold coffee with milk and ice.",
+        description: "",
       },
       {
-        name: "House Lemonade",
+        name: "מים מינרליים",
+        price: "11 ₪",
+        description: "",
+      },
+      {
+        name: "בקבוק קוקה קולה",
         price: "14 ₪",
-        description: "Refreshing homemade lemonade with mint.",
-      },
-      {
-        name: "Glass of Wine",
-        price: "28 ₪",
-        description: "Red or white house wine.",
+        description: "",
       },
     ],
   },
